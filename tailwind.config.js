@@ -4,17 +4,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        surface:         '#FAFAF7',
-        'surface-alt':   '#F0EDE4',
-        'surface-inv':   '#1B3A28',
-        'fg-primary':    '#1C2B1E',
-        'fg-secondary':  '#5C6B56',
+        surface:         '#FBF8F0',
+        'surface-alt':   '#F2EDE2',
+        'surface-inv':   '#2A2119',
+        'fg-primary':    '#2A2119',
+        'fg-secondary':  '#6B5A49',
         'fg-inv':        '#FFFFFF',
-        'fg-muted':      '#8B9688',
-        accent:          '#2C5F3E',
+        'fg-muted':      '#9B8A79',
+        accent:          '#5A3A28',
         'accent-gold':   '#C9A24D',
-        'accent-olive':  '#6B7C4A',
-        border:          '#D4CBB8',
+        'accent-olive':  '#617043',
+        border:          '#DDD3C3',
       },
       fontFamily: {
         playfair: ['"Playfair Display"', 'serif'],
