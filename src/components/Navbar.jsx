@@ -32,8 +32,8 @@ export default function Navbar() {
               key={to}
               to={to}
               className={({ isActive }) =>
-                `font-inter text-sm transition-colors ${
-                  isActive ? 'text-fg-primary font-medium' : 'text-fg-secondary'
+                `font-inter text-sm font-bold transition-colors ${
+                  isActive ? 'text-fg-primary' : 'text-fg-secondary'
                 }`
               }
             >
@@ -71,8 +71,8 @@ export default function Navbar() {
               to={to}
               onClick={() => setOpen(false)}
               className={({ isActive }) =>
-                `block py-3 font-inter text-sm border-b border-border ${
-                  isActive ? 'text-fg-primary font-medium' : 'text-fg-secondary'
+                `block py-3 font-inter text-sm font-bold border-b border-border ${
+                  isActive ? 'text-fg-primary' : 'text-fg-secondary'
                 }`
               }
             >
