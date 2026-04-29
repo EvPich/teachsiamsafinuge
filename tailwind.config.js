@@ -18,7 +18,7 @@ export default {
       },
       fontFamily: {
         playfair: ['"Playfair Display"', 'serif'],
-        inter:    ['Inter', 'sans-serif'],
+        inter:    ['Raleway', 'sans-serif'],
         mono:     ['"Geist Mono"', 'monospace'],
       },
     },
