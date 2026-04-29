@@ -22,17 +22,7 @@ export default function Navbar() {
             src="/images/logo.png"
             alt="Teach Siamsa Finuge"
             className="h-12 w-auto object-contain"
-            onError={(e) => {
-              e.currentTarget.style.display = 'none'
-              e.currentTarget.nextSibling.style.display = 'block'
-            }}
           />
-          <span
-            className="font-playfair text-xl font-semibold text-fg-primary hidden"
-            style={{ display: 'none' }}
-          >
-            Teach Siamsa
-          </span>
         </Link>
 
         {/* Desktop nav */}
